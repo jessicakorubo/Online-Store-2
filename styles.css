@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 1.5rem;
+    width: 95%;
+}
+.home {
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    margin-right: 5px;
+}
+ 
+span {
+    position: relative;
+    bottom: 5px;
+}
+
+.searchbar input[type="text"] {
+    padding: 8px;
+    width: 23rem;
+    border: none;
+    background-color: aliceblue;
+    
+}
+
+.searchbar input[type="text"]:focus {
+    outline: none;
+}
+.searchbar {
+    background-color: aliceblue;
+    padding: 4px;
+}
+.btn {
+    text-decoration: none;
+    background-color: rgb(204, 13, 39);
+    width: 6rem;
+    padding: 8px 8px;
+    color: #fff;
+    border-radius: 2px;
+    position: relative;
+    top: 8px;
+}
+
+.navcolumn {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 30%;
+    margin-top: 1.5rem;
+}
+.navbar a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+.activelink {
+    border-bottom:  3px solid rgb(189, 23, 32);
+}
+.navbar a:hover {
+   border-bottom:  2px solid rgb(189, 23, 32);
+}
+.icons {
+    margin-left: 10%;
+}
+.icons img {
+    margin-right: 1.3rem;
+}
+.mySlides {
+    display: none;
+}
+.mySlides img {
+    vertical-align: middle;
+    width: 77rem;
+    object-fit: cover;
+    height: 25rem;
+}
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    width: 77rem;
+    height: 25rem;
+    margin-top: 11px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 60%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+transition: 0.6s ease;
+border-radius: 0 4px 4px 0;
+-webkit-user-select: none;
+user-select: none;
+}
+
+.arrow .active, .dot:hover {
+background-color: #717171;
+}
+
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+.line {
+cursor: pointer;
+height: 3px;
+width: 20px;
+margin: 0 2px;
+background-color: #bbb;;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.slide {
+    text-align:center;
+}
+.numbertext {
+color: grey;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 100px;
+margin-left: 12rem;
+}
+
+.text2 {
+position: absolute;
+left: 30px;
+font-size: 60px;
+top: 140px;
+font-weight: 700;
+color:white;
+margin-left: 10rem;
+}
+
+.shop-now {
+    text-decoration: none;
+    background-color: rgb(230, 51, 51);
+    width: 15rem;
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 2px;
+    position: relative;
+    bottom: 130px;
+    left: 13rem;
+}
+
+.shop-now:hover {
+    background-color: red;
+}
+
+.sales {
+    position: absolute;
+    color: rgb(221, 112, 112);
+    left: 54rem;
+    top: 10rem;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+sp {
+    color:red
+}
+.numbertext1 {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    left: 30rem;
+    top: 80px;
+    font-size: 50px;
+    color: red;
+    justify-content: center;
+    font-weight: 800;
+}
+.smiling-woman {
+    opacity: 0.5;
+}
+
+.start-shopping {
+    text-decoration: none;
+    background-color: rgb(230, 51, 51);
+    width: 15rem;
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 100px;
+    left: 32rem;
+}
+.start-shopping:hover{
+    background-color: red;
+}
+
+.icon-container {
+    display: flex;
+}
+
+.middle {
+    justify-content: space-evenly;
+    display: flex;
+    padding: 1.5rem; 
+    font-size: smaller;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(46, 15, 15);
+}
+
+.icon {
+    margin-right: 1rem;
+}
+
+.hot-deals {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.hot-deals img {
+    margin-right: 3px;
+}
+.hot-links a:hover{
+    border-bottom: 1px solid red;
+}
+.hot-icon {
+    margin-left: 10px;
+}
+.hot-links a{
+    color:black;
+    margin-right: 3rem;
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
+.hot-links a:active{
+    border-bottom: 1px solid red;
+}
+hd {
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
