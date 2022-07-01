@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bosco's Store</title>
     <link rel="stylesheet" href="styles.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
     <div class="container">
@@ -18,15 +21,16 @@
                     <img src="images/search-icon.png" alt="">
                 </input>
             </div>
-            <div>
-                <a href="#" class="btn">Sign In / Sign Up</a>
+            <div class="btn">
+                <a target="_blank" href="signIn.html">Sign In</a> /
+                <a href="signUp.html" target="_blank"> Sign Up</a>
             </div>
         </div>
         <div class="navcolumn">
              <div class="navbar">
                  <a href="" class="activelink">Home</a>
                  <a href="">Cart</a>
-                 <a href="">Categories</a>
+                 <a href="#top-categories">Categories</a>
                  <a href="">Settings</a>
                  <a href="">Contact Us</a>
              </div>
@@ -246,7 +250,7 @@
                 </div>
             </div>
         </div>
-        <div class="top-categories-title">
+        <div id ="top-categories" class="top-categories-title">
             Top Categories
         </div>
         
@@ -257,7 +261,7 @@
                             <img src="images/Ipads.png" alt="">
                         </div>
                         <div>
-                            <div class="categories-name">Shirts</div>
+                            <div class="categories-name">iPads</div>
                         </div>
                     </div>
                     <div class="categories">
@@ -265,7 +269,7 @@
                             <img src="images/SmartTvs.png" alt="">
                         </div>
                         <div>
-                            <div class="categories-name">Phone Pouch</div>
+                            <div class="categories-name">SmartTvs</div>
                         </div>
                     </div>
                     <div class="categories">
@@ -289,7 +293,7 @@
                             <img src="images/Laptops.png" alt="">
                         </div>
                         <div>
-                            <div class="categories-name">wristwatches</div>
+                            <div class="categories-name">Laptops</div>
                         </div>
                     </div>
                     <div class="categories">
@@ -297,7 +301,7 @@
                             <img src="images/Pouch.png" alt="">
                         </div>
                         <div>
-                            <div class="categories-name">iPhones</div>
+                            <div class="categories-name">Phone Pouches</div>
                         </div>
                     </div>
                     <div class="categories">
@@ -305,7 +309,7 @@
                             <img src="images/watches.png" alt="">
                         </div>
                         <div>
-                            <div class="categories-name">Laptops</div>
+                            <div class="categories-name">Wristwatches</div>
                         </div>
                     </div>
                     <div class="categories">
@@ -313,7 +317,7 @@
                             <img src="images/Gaming.png" alt="">
                         </div>
                         <div>
-                            <div class="categories-name">Shoes</div>
+                            <div class="categories-name">Gaming</div>
                         </div>
                     </div>
                 </div>
@@ -323,8 +327,65 @@
             </div>
         </div>
     </div>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper testimonial-container">
+            
+          <!-- Slides -->
+            <div class="swiper-slide">
+                <img class ="avatar" src="images/avatar.png" alt="">
+                <p>Bosco store is doing just great. You have a splendid online shop!</p>
+            </div>
+            <div class="swiper-slide">
+                <img class ="avatar" src="images/avatar2.png" alt="">
+                <p>Bosco store is doing just great. You have a splendid online shop!</p>
+            </div>
+            <div class="swiper-slide">
+                <img class ="avatar" src="images/avatar.png" alt="">
+                <p>Bosco store is doing just great. You have a splendid online shop!</p>
+            </div>
+        </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+    </div>
 
-    
+      <div class="footer-hero">
+          <div class="footer-head">
+                <p class="logo-name">Bosco's Store</p>
+                <div class="foot-text">
+                    <p>New to Bosco Store?</p>
+                    <p>Subscribe to our newsletter to get updates on our latest offers</p>
+                    <input type="text" name="" id="" placeholder="Enter Email Address">
+                </div>
+          </div>
+      </div>
+      <div class="footer-foot">
+        <div class="logo-name name2">Bosco's Store</div>
+        <div class="extra">
+            <div class="our-company">
+                <div class="company-text footer-title">Our Company</div>
+                    <div class="about-footer footer-title"><a href="">About Us</a></div>
+                    <div class="blog-footer footer-title"><a href="">Blog</a></div>
+            </div>
+            <div>
+                <div class="support-text footer-title">Support</div>
+                <div class="footer-title"><a href="">Private Policy</a></div>
+                <div class="footer-title"><a href="">Terms and conditions</a></div>
+            </div>
+            <div>
+                <div class="contact-text footer-title">Contact Us</div>
+                <div class="footer-title address">Road 5 Ikoyi, <br> Lagos, Nigeria.</div>
+                <div class="mail footer-title"><a href="Bosco@gmail.com">Bosco@gmail.com</a></div>
+            </div>
+        </div>
+
+      </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="signIn.js"></script>
 </body>
 </html>
 
