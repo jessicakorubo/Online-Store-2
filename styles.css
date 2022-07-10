@@ -5,7 +5,13 @@
 
  /* next breakpoint is 650px */
 
-@media screen and (max-width:1183px){
+@media screen and (max-width: 800px){
+    .container {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 799px) and (max-width:1183px){
     .container {
         margin-top: 1.5rem;
         width: 95%;
