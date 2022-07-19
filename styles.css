@@ -568,7 +568,7 @@ html {
     .next {
         cursor: pointer;
         position: absolute;
-        top: 55%;
+        top: 25%;
         width: auto;
         padding: 16px;
         margin-top: -10px;
@@ -885,6 +885,10 @@ html {
 /*  Mobile Design  */
 @media screen and (max-width:750px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     * {
         box-sizing: border-box;
         padding: 0;
@@ -1007,7 +1011,6 @@ html {
     .searchbar input[type="text"] {
         border: none;
         background-color: aliceblue;
-        width: 23rem;      
     }
     .searchbar input[type="text"]:focus {
         outline:none;
@@ -1023,7 +1026,7 @@ html {
         border-radius: 2px;
         position: relative;
         bottom: 6rem;
-        left: 40%;
+        left: 25%;
         margin-left: 5rem;
         display: flex;
     }
@@ -1040,8 +1043,13 @@ html {
     /* Cart Icons */
     .icons {
         position: relative ;
-        left:90%;
-        bottom: 4rem;
+        left:50%;
+        bottom: 1.5rem;
+        display: flex;
+    }
+    .icons img:first-of-type {
+        margin-right: 1rem;
+        margin-left: -2rem;
     }
     .arrow a {
         color: red;
@@ -1075,7 +1083,7 @@ html {
     .next {
         cursor: pointer;
         position: absolute;
-        top: 55%;
+        top: 40%;
         width: auto;
         padding: 16px;
         margin-top: -10px;
@@ -1406,7 +1414,12 @@ html {
     }
     
 }
-
+@media screen and (max-width:450px){
+    .extra {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 /* End of Mobile Design */
