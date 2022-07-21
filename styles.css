@@ -540,7 +540,7 @@ html {
         vertical-align: middle;
         width: 100%;
         object-fit: cover;
-        height: 26rem;                                                                m;
+        height: 26rem;                                                 
     }
     .arrow a {
         color: red;
@@ -985,15 +985,16 @@ html {
     /* Logo */
     .logo {
         display: flex;
-        justify-content: left;
+        justify-content: center;
         margin: auto;
-        margin-bottom: 1rem;
-        margin-left: 5%;
+        margin-bottom: 5rem;
+        
     }
 
     .logo span {
         position: relative;
-        top: 5px;
+        top: 9px;
+        font-size: medium;
     }
 
     /* Hamburger */
@@ -1026,7 +1027,7 @@ html {
         border-radius: 2px;
         position: relative;
         bottom: 6rem;
-        left: 25%;
+        right: 3rem;
         margin-left: 5rem;
         display: flex;
     }
@@ -1243,7 +1244,16 @@ html {
         height: 80px;
         object-fit: contain;
     }
-    
+    .products .product-name {
+        font-weight: bold;
+    }
+    .products .product-properties {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .products .product-price {
+        font-weight: bold;
+        color:rgb(196, 48, 26);
+    }
     .slider2 {
         width: 100%;
         height: 250px;
