@@ -936,7 +936,7 @@ html {
         cursor: pointer;
     }
     .hamburger .bar {
-        height: 2px;
+        height: 3px;
         width: 30px;
         position:relative;
         background-color: red;
@@ -997,6 +997,8 @@ html {
     }
     /* Logo */
     .logo {
+        height: 50px;
+        background-color: red;
         display: flex;
         justify-content: center;
         margin: auto;
@@ -1005,9 +1007,11 @@ html {
     }
 
     .logo span {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         position: relative;
         top: 9px;
-        font-size: medium;
+        font-size: 30px;
+        color: white;
     }
 
     /* Hamburger */
