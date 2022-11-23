@@ -38,10 +38,14 @@ body {
 .name {
     display: flex;
 }
+.name input {
+    margin-bottom: 2rem;
+}
 .entry {
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 input {
     border-radius: 7px;
@@ -61,6 +65,10 @@ input {
 }
 input:focus {
     outline-color: red;
+}
+input[type="email"] {
+    margin-top: 0.5rem;
+   
 }
 .sumbit-input {
     width: 80%;
@@ -92,4 +100,15 @@ input[type="submit"]:hover{
 }
 .signUp a:hover {
     color:rgb(209, 47, 47)
+}
+@media screen and (max-width: 850px) {
+    .signUpBox {
+    
+        width: 60%;
+        /* background-color: white;
+        margin: auto;
+        margin-top: 4rem;
+        padding: 2rem;
+        position: relative; */
+    }
 }
