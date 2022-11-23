@@ -9,6 +9,19 @@ html {
     transform: scale(1.1);
     transition: .9s ease transform;
 }
+.product-name {
+    /* color: red; */
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.product-properties{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.product-price{
+    font-family:cursive;
+    font-weight: 900;
+}
 @media screen and (max-width: 800px){
     .container {
         margin-top: 1.5rem;
@@ -31,6 +44,7 @@ html {
     .container {
         margin-top: 1.5rem;
         width: 95%;
+        /* overflow: hidden; */
     }
     .home {
         display: flex;
@@ -117,11 +131,10 @@ html {
     }
     .slideshow-container {
         position: relative;
-        width: 84.5rem;
+        width: 100vw;
         height: 26rem;
         margin-top: 11px;
-        overflow-x: hidden;
-        overflow-y: hidden;
+        overflow: hidden;
     }
     .next {
         right: 0;
@@ -1244,15 +1257,14 @@ html {
         height: 80px;
         object-fit: contain;
     }
-    .products .product-name {
-        font-weight: bold;
+    .product-name {
+        font-weight: 900;
     }
     .products .product-properties {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .products .product-price {
         font-weight: bold;
-        color:rgb(196, 48, 26);
     }
     .slider2 {
         width: 100%;
@@ -1306,6 +1318,7 @@ html {
     .categories{
         margin-bottom: 2rem;
     }
+  
     .categories:hover{
         transform: scale(1.1);
         transition: .9s ease transform;
