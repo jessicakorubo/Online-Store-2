@@ -2,6 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    overflow-x: hidden;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -44,7 +47,7 @@ html {
     .container {
         margin-top: 1.5rem;
         width: 95%;
-        /* overflow: hidden; */
+        overflow-x: hidden;
     }
     .home {
         display: flex;
@@ -131,7 +134,7 @@ html {
     }
     .slideshow-container {
         position: relative;
-        width: 100vw;
+        width: 100%;
         height: 26rem;
         margin-top: 11px;
         overflow: hidden;
@@ -377,10 +380,9 @@ html {
         height: 300px;
       }
       .avatar {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin: 0.5rem auto;
       }
       .swiper-slide {
         margin: auto;
@@ -388,6 +390,7 @@ html {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        text-align: center;
       }
       .swiper-slide p {
         margin-top: 2rem;
@@ -797,17 +800,18 @@ html {
         height: 300px;
     }
     .avatar {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
     }
     .swiper-slide {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
     }
     .swiper-slide p {
         margin-top: 2rem;
@@ -1344,7 +1348,7 @@ html {
         height: 300px;
     }
     .avatar {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
@@ -1352,14 +1356,11 @@ html {
     .swiper-slide {
         margin: auto;
         display: flex;
+        text-align: center;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    }
-    .swiper-slide {
-        display: flex;
-        justify-content: center;
-        text-align: center;
+
     }
     .footer-hero {
         color: white;
